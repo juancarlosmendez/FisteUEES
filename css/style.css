@@ -2,3 +2,16 @@
 	margin:0px;
 	padding:0px;
 }
+
+#cvs3 {
+  background-image:url('http://paoloerica.altervista.org/img/bgimage.png');
+  background-repeat:repeat;
+  border-radius:25px;
+  border:5px solid gray;
+}
+
+#contenitore{
+  background-color:gray;
+  width:560px;
+  padding:50px;
+}
