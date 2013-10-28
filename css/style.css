@@ -84,11 +84,11 @@ background: linear-gradient(182deg, rgb(255, 255, 255) 30%, rgb(94, 89, 96) 96%)
 
 h2{
 	color: #000;
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 
 input{
-	font-size: 1.1em;
+	font-size: 1em;
 	margin-top: 2%;
 }
 
@@ -100,11 +100,15 @@ input{
 	right: 0px;
 	top: 5%;
 	font-size: 0.9em;
-	font-style: italic;
+	font-style: normal;
+	line-height: 0.7em;
+	color: #840314;
 }
 .datos span{
 	font-size: 1em;
 	color:#333;
+	line-height: 1.2em;
+	font-style: normal;
 }
 
 
