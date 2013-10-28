@@ -51,7 +51,7 @@
 
 
     <preference name="phonegap-version" value="3.0.0" />
-    <preference name="orienation" value="portrait" />
+    
     <preference name="fullscreen" value="false" />
     
     <!--iphone-->
@@ -64,6 +64,8 @@
       <scheme>pgbr</scheme>
       <scheme>pgbw</scheme>
     </gap:url-scheme>
+
+    <preference name="orienation" value="portrait" />
 
 <!--
     <gap:plugin name="com.simplec.plugins.localnotification" />
