@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.maruridigital.Pruebas"
+        id        = "com.maruridigital.pruebas"
         versionCode="10" 
         version   = "1.0.0">
 
@@ -58,7 +58,7 @@
     <preference name="ios-statusbarstyle" value="black-opaque" />
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="true" />
-    <gap:url-scheme name="com.maruridigital.millertime" role="None">
+    <gap:url-scheme name="com.maruridigital.pruebas" role="None">
       <scheme>pgbr</scheme>
       <scheme>pgbw</scheme>
     </gap:url-scheme>
