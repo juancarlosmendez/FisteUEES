@@ -182,6 +182,10 @@ $(document).ready(function(){
 
 
 
+window.onorientationchange = function(){
+		$('#canvas').attr('width',$(window).width()-($(window).width()/4));
+	}
+
 
 
 
