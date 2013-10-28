@@ -45,7 +45,7 @@ var pico2=20;
 
 //var rango1=300;
 
-for(var i=0;i<700;i++){
+for(var i=0;i<400;i++){
 	cnt++;
 	if(cnt<=50){
 		data1.push(rango1);

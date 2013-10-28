@@ -3,7 +3,9 @@
 	padding:0px;
 	font-family: 'Segoe UI Semilight','Open Sans',Verdana,Arial,Helvetica,sans-serif;
 }
-
+body{
+	overflow: hidden;
+}
 .caption1{
 	color: red;
 	font-size: 1.2em;
@@ -82,11 +84,11 @@ background: linear-gradient(182deg, rgb(255, 255, 255) 30%, rgb(94, 89, 96) 96%)
 
 h2{
 	color: #000;
-	font-size: 2em;
+	font-size: 1.8em;
 }
 
 input{
-	font-size: 1em;
+	font-size: 1.1em;
 	margin-top: 2%;
 }
 
@@ -122,11 +124,11 @@ input{
 }
 
 .uees2{
-	width: 40%;
+	width: 70%;
 	height:auto;
 }
 .fiste2{
-	width: 40%;
+	width: 70%;
 	height:auto;
 }
 
@@ -136,7 +138,7 @@ input{
 	background-size: auto 100%;
 	background-repeat: no-repeat;
 	height:13%;
-	width: 13%;
+	width: 20%;
 	bottom:3%;
 	left: 35%;
 }
