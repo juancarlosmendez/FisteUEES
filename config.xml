@@ -41,7 +41,7 @@
     <icon src="img/ico/hdpi.png" gap:platform="ios" width="114" height="114" />
     <icon src="img/ico/xhdpi.png" gap:platform="ios" width="144" height="144" /> 
 
-    <preference name="phonegap-version" value="3.0" />
+    <preference name="phonegap-version" value="3.1.0" />
     <preference name="orienation" value="portrait" />
     <preference name="fullscreen" value="true" />
 
