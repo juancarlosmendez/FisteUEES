@@ -84,11 +84,11 @@ background: linear-gradient(182deg, rgb(255, 255, 255) 30%, rgb(94, 89, 96) 96%)
 
 h2{
 	color: #000;
-	font-size: 1.8em;
+	font-size: 1.5em;
 }
 
 input{
-	font-size: 0.9em;
+	font-size: 1.1em;
 	margin-top: 2%;
 }
 
@@ -135,10 +135,10 @@ input{
 .play_button{
 	position: absolute;
 	background-image: url(../img/play.png);
-	background-size: auto 100%;
+	background-size: auto 70%;
 	background-repeat: no-repeat;
 	height:13%;
-	width: 15%;
+	width: 20%;
 	bottom:3%;
 	left: 35%;
 }
