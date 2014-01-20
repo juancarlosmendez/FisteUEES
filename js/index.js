@@ -3,27 +3,31 @@
 
 var distanciaBetwen=getPXbyPercentage(80)/5;
 
-var rango1=distanciaBetwen*1;
-var rango2=distanciaBetwen*2;
-var rango3=distanciaBetwen*3;
+var rango1=distanciaBetwen*2;//1
+var rango2=distanciaBetwen*4;//2
+var rango3=distanciaBetwen*4;//3
 var rango4=distanciaBetwen*4;
 
 
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
+//ctx.fillStyle = "#000";
 ctx.fillStyle = "#dbbd7a";
 ctx.fill();
 
 var ctx2 = canvas.getContext("2d");
-ctx2.fillStyle = "#dbbd7a";
+//ctx2.fillStyle = "#dbbd7a";
+ctx2.fillStyle = "#000";
 ctx2.fill();
 
 var ctx3 = canvas.getContext("2d");
-ctx3.fillStyle = "#dbbd7a";
+//ctx3.fillStyle = "#dbbd7a";
+ctx3.fillStyle = "#000";
 ctx3.fill();
 
 var ctx4 = canvas.getContext("2d");
-ctx4.fillStyle = "#dbbd7a";
+//ctx4.fillStyle = "#dbbd7a";
+ctx4.fillStyle = "#000";
 ctx4.fill();
 
 var fps = 60;
@@ -95,7 +99,7 @@ function drawWave() {
 
 
         ctx2.lineWidth = "2";
-        ctx2.strokeStyle = 'yellow';
+        ctx2.strokeStyle = 'black';
         ctx2.beginPath();
         ctx2.moveTo(n2 - 1, data2[n2 - 1]);
         ctx2.lineTo(n2, data2[n2]);
@@ -103,7 +107,7 @@ function drawWave() {
         ctx2.clearRect(n+1, 0, 10, canvas.height);
 
         ctx3.lineWidth = "2";
-        ctx3.strokeStyle = 'green';
+        ctx3.strokeStyle = 'black';
         ctx3.beginPath();
         ctx3.moveTo(n3 - 1, data3[n3 - 1]);
         ctx3.lineTo(n3, data3[n3]);
@@ -111,7 +115,7 @@ function drawWave() {
         ctx3.clearRect(n+1, 0, 10, canvas.height);
 
         ctx4.lineWidth = "2";
-        ctx4.strokeStyle = 'blue';
+        ctx4.strokeStyle = 'black';
         ctx4.beginPath();
         ctx4.moveTo(n4 - 1, data4[n4 - 1]);
         ctx4.lineTo(n4, data4[n4]);
@@ -170,12 +174,16 @@ $(document).ready(function(){
 	$('#canvas').attr('width',$(window).width()-($(window).width()/4));
 	$('#canvas').attr('height',getPXbyPercentage(80));
 	
+  
+	$('.caption2').hide();
+	$('.caption3').hide();
+	$('.caption4').hide();
+  
+  
 	$('.caption1').css('top',(rango1-18)+'px');
 	$('.caption2').css('top',(rango2-18)+'px');
 	$('.caption3').css('top',(rango3-18)+'px');
-	$('.caption4').css('top',(rango4-18)+'px');
-
-	
+	$('.caption4').css('top',(rango4-18)+'px');	
 
 
 });
